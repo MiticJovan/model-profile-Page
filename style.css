@@ -135,6 +135,49 @@ body {
 
 .Send {
   background-color: #e177ec;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin-left: 20px;
+  border-style: none;
+  zoom: 150%; }
+
+.info {
+  margin-right: -50px; }
+
+.info-about {
+  border-bottom: 1px solid #ccc;
+  margin-top: 40px;
+  margin-left: 30px;
+  padding-bottom: 10px;
+  padding-left: 10px; }
+
+.info span {
+  letter-spacing: 1px; }
+
+.personal-info {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding-bottom: 10px; }
+
+.info span {
+  font-size: 18px;
+  font-weight: 300; }
+
+.info-about span {
+  margin-left: 10px; }
+
+.personal-info span {
+  margin-left: 10px; }
+
+.buttons {
+  margin-top: 150px;
+  margin-left: 100px; }
+
+.Invite {
+  background-color: #e177ec;
+  border-radius: 5px;
+  border-style: none;
+  zoom: 150%; }
 
 /*# sourceMappingURL=style.css.map */
