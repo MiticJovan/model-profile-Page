@@ -1,39 +1,140 @@
-/*
-Error: Invalid CSS after "body ": expected selector or at-rule, was "{"
-        on line 2 of style.scss
+body {
+  font: "Helvetica-Neue-LT-Std-Lt"; }
 
-1: $noborder: 
-2: body {
-3: 	font-family: 'Helvetica-Neue-LT-Std-Lt';
-4: }
-5: 
-6: .navbar ul{
-7: 	white-space:nowrap;
+.main {
+  margin-top: -1px;
+  vertical-align: middle; }
 
-Backtrace:
-style.scss:2
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1208:in `expected'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:42:in `parse'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:414:in `_to_tree'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"body \": expected selector or at-rule, was \"{\"\A         on line 2 of style.scss\A \A 1: $noborder: \A 2: body {\A 3: 	font-family: 'Helvetica-Neue-LT-Std-Lt';\A 4: }\A 5: \A 6: .navbar ul{\A 7: 	white-space:nowrap;"; }
+.main button {
+  vertical-align: middle; }
+
+.navbar ul {
+  border-bottom: 1px solid #DD67EB; }
+
+.navbar li {
+  margin-right: 35px; }
+
+.main a {
+  vertical-align: middle; }
+
+.profile-link img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%; }
+
+.VipButton {
+  background: linear-gradient(to right, #ffd025, #e9b400);
+  color: black;
+  width: 120px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  border-style: none; }
+
+.Show {
+  border-style: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 300; }
+
+.main .glyphicon:hover {
+  color: #e177ec;
+  transition: all ease-out 0.3s; }
+
+.main button:hover {
+  color: #e177ec;
+  transition: all ease-out 0.3s; }
+
+.Messages {
+  border-style: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 300; }
+
+.Likes {
+  border-style: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 300; }
+
+.Credits {
+  border-style: none;
+  border-radius: 3px;
+  background-color: #C2C2C2;
+  color: white;
+  padding: 4px 9px; }
+
+.glyphicon.glyphicon-star-empty {
+  font-size: 20px;
+  font-weight: bold; }
+
+.glyphicon.glyphicon-user {
+  color: #ccc; }
+
+.glyphicon.glyphicon-envelope {
+  color: #ccc; }
+
+.glyphicon.glyphicon-heart {
+  color: #ccc; }
+
+.navbar li {
+  display: inline;
+  list-style-type: none; }
+
+.navbar {
+  text-align: center; }
+
+.Vipgirls {
+  background: linear-gradient(#fff, #f1f1f1);
+  height: 300px;
+  border-bottom: 1px solid #ccc; }
+
+.girls img {
+  height: 200px;
+  width: 120px;
+  border-radius: 7px;
+  border-color: none; }
+
+.girls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+  margin-left: 350px; }
+
+.girls img:hover {
+  transform: scale(1.1);
+  transition: transform .3s; }
+
+.main-girls {
+  background: #d9d9d9;
+  padding-top: 25px; }
+
+.submain-girls {
+  display: flex;
+  flex-direction: row; }
+
+.submain-girls {
+  margin: 0px 150px 30px 150px;
+  border-color: #ccc;
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+  border-radius: 6px; }
+
+.submain-girls img {
+  border-color: #ffd025;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: solid;
+  width: 300px;
+  height: 400px;
+  margin-left: 10px;
+  margin-top: 25px; }
+
+.Send {
+  background-color: #e177ec;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=style.css.map */
