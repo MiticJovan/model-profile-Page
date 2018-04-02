@@ -22,6 +22,14 @@ body {
   width: 35px;
   border-radius: 50%; }
 
+.profile-log {
+  display: inline-block;
+  padding: 17px; }
+
+.profile-log:hover {
+  background-color: #8c8c8c;
+  transition: all ease-out 0.5s; }
+
 .VipButton {
   background: linear-gradient(to right, #ffd025, #e9b400);
   color: black;
@@ -179,5 +187,71 @@ body {
   border-radius: 5px;
   border-style: none;
   zoom: 150%; }
+
+.girlsrating {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 150px;
+  height: 330px;
+  background-color: #fff;
+  position: relative; }
+
+.girlsrating img {
+  width: 148px;
+  height: 300px;
+  padding-bottom: 62px;
+  border-radius: 5px; }
+
+.girlsrating-down {
+  position: absolute;
+  top: 240px;
+  left: 0;
+  right: 0;
+  font-size: 16px; }
+
+.girlsrating-down p {
+  margin-left: 3px;
+  color: #ccc; }
+
+.girlsrating-down span {
+  color: #ccc; }
+
+.check {
+  float: right;
+  margin-right: 5px; }
+
+.girlrating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 150px;
+  margin-left: 150px;
+  padding-bottom: 50px; }
+
+.heart {
+  margin-left: 5px;
+  display: inline-block; }
+
+.footer {
+  border-top: 2px solid #DD67EB; }
+
+.footerpic {
+  display: flex;
+  justify-content: center;
+  margin: 5px 5px; }
+
+.footer hr {
+  width: 82%; }
+
+.footerlinks p {
+  margin-left: 150px; }
+
+.footerlinks a {
+  color: #1a1a1a;
+  font-weight: 350; }
+
+.copyright {
+  margin-left: 150px;
+  margin-top: 30px; }
 
 /*# sourceMappingURL=style.css.map */
