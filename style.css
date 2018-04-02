@@ -1,5 +1,5 @@
 body {
-  font: "Helvetica-Neue-LT-Std-Lt"; }
+  font-family: 'IBM Plex Sans', sans-serif; }
 
 .main {
   margin-top: -1px;
@@ -115,6 +115,14 @@ body {
   transform: scale(1.1);
   transition: transform .3s; }
 
+.recommended {
+  margin-bottom: 20px;
+  text-align: center; }
+
+.recommended span {
+  font-size: 25px;
+  color: #e177ec; }
+
 .main-girls {
   background: #d9d9d9;
   padding-top: 25px; }
@@ -146,7 +154,8 @@ body {
   border-radius: 5px;
   margin-left: 20px;
   border-style: none;
-  zoom: 150%; }
+  zoom: 150%;
+  color: white; }
 
 .info {
   margin-right: -50px; }
@@ -186,7 +195,8 @@ body {
   background-color: #e177ec;
   border-radius: 5px;
   border-style: none;
-  zoom: 150%; }
+  zoom: 150%;
+  color: white; }
 
 .girlsrating {
   border-radius: 5px;
