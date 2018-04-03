@@ -132,18 +132,23 @@ body {
 .main-girls {
 	background: #d9d9d9;
 	padding-top: 25px;
+
 }
 .submain-girls {
 	display: flex;
 	flex-direction: row;
+
 }
 .submain-girls {
-	margin: 0px 350px 30px 350px;
 	border-color: #ccc; 
 	border-width: 1px;
 	border-style: solid;
 	background-color: white;
 	border-radius: 6px;
+	display: flex;
+	justify-content: center;
+	width: 1000px;
+	margin: 0 auto;
 }
 .submain-girls img{
 	border-color: #ffd025;
@@ -242,9 +247,10 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-right: 350px;
-	margin-left: 350px;
+	margin:0 auto;
 	padding-bottom: 50px;
+	width: 1000px;
+
 }
 .heart {
 	margin-left: 5px;
