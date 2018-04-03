@@ -42,6 +42,9 @@ body {
 	letter-spacing: 0.5px;
 	border-style: none;
 }
+.VipButton:hover {
+	border: 1px solid #000;
+}
 .Show {
 	border-style: none;
 	color: black;
@@ -99,19 +102,19 @@ body {
 	background:linear-gradient(#fff,#f1f1f1);
 	height: 300px;
 	border-bottom: 1px solid #ccc;
+	display: flex;
+	justify-content: center;
+
 }
 .girls img{
 	height: 200px;
 	width: 120px;
 	border-radius: 7px;
 	border-color: none;
+	margin-right: 25px;
 }
 .girls {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 1000px;
-	margin-left: 350px;
+
 }
 .girls img:hover {
 	transform: scale(1.1);
@@ -135,7 +138,7 @@ body {
 	flex-direction: row;
 }
 .submain-girls {
-	margin: 0px 150px 30px 150px;
+	margin: 0px 350px 30px 350px;
 	border-color: #ccc; 
 	border-width: 1px;
 	border-style: solid;
@@ -239,8 +242,8 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-right: 150px;
-	margin-left: 150px;
+	margin-right: 350px;
+	margin-left: 350px;
 	padding-bottom: 50px;
 }
 .heart {
@@ -256,18 +259,74 @@ body {
 	margin: 5px 5px;
 }
 .footer hr {
-	width: 82%;
+	width: 63%;
 }
 .footerlinks p {
-	margin-left: 150px;
+	margin-left: 350px;
 }
 .footerlinks a {
 	color: #1a1a1a;
 	font-weight: 350;
 }
 .copyright {
-	margin-left: 150px;
+	margin-left: 350px;
 	margin-top: 30px;
 }
+/* Responsive media  */
 
+@media  (max-width: 1053px) {
+ .Vipgirls {
+ 	height: 450px;
+ }
+ .girls img {
+ 	 	margin-top: 20px;
+ 	 	margin-left: 15px;
+ }
+ .buttons button {
+ 	align-items: center;
+ }
+}
+@media (max-width: 667px) {
+	.Vipgirls {
+		height: 680px;
+	}
+	.submain-girls {
+	margin: 15px !important;
+	}
+
+}
+@media (max-width: 503px) {
+	.Vipgirls {
+		height: 900px;
+	}
+}
+@media  (max-width: 1497px) {
+
+ .submain-girls {
+ 	margin-right: 200px;
+ }
+}
+@media  (max-width: 1345px) {
+	.Send {
+		margin-top: 30px;
+	}
+	.Invite {
+		margin-left: 20px;
+	}
+	.submain-girls {
+		margin: 0 100px 0 100px;
+	}
+}
+@media (max-width: 872px) {
+	.buttons {
+		margin: 120px 20px 0 10px;
+	}
+	.div-girls img {
+	zoom: 60%;
+	}
+	.buttons button {
+		zoom: 120%;
+	}
+
+}
 
