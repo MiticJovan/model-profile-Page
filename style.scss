@@ -113,9 +113,6 @@ body {
 	border-color: none;
 	margin-right: 25px;
 }
-.girls {
-
-}
 .girls img:hover {
 	transform: scale(1.1);
 	transition: transform .3s;
@@ -132,7 +129,6 @@ body {
 .main-girls {
 	background: #d9d9d9;
 	padding-top: 25px;
-
 }
 .submain-girls {
 	display: flex;
@@ -147,8 +143,8 @@ body {
 	border-radius: 6px;
 	display: flex;
 	justify-content: center;
-	width: 1000px;
-	margin: 0 auto;
+	width: auto;
+	margin: 50px;
 }
 .submain-girls img{
 	border-color: #ffd025;
@@ -230,7 +226,6 @@ body {
 	left: 0;
 	right: 0;
 	font-size: 16px;
-
 }
 .girlsrating-down p {
 	margin-left: 3px;
@@ -250,7 +245,6 @@ body {
 	margin:0 auto;
 	padding-bottom: 50px;
 	width: 1000px;
-
 }
 .heart {
 	margin-left: 5px;
@@ -265,18 +259,26 @@ body {
 	margin: 5px 5px;
 }
 .footer hr {
-	width: 63%;
+	width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 15px;
 }
-.footerlinks p {
-	margin-left: 350px;
+.footerlinks {
+	width: 1000px;
+	margin: 0 auto;
+}
+.footerlinks span{
+	
 }
 .footerlinks a {
 	color: #1a1a1a;
 	font-weight: 350;
 }
 .copyright {
-	margin-left: 350px;
-	margin-top: 30px;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+	
 }
 /* Responsive media  */
 
@@ -292,12 +294,12 @@ body {
  	align-items: center;
  }
 }
-@media (max-width: 667px) {
+@media (max-width: 687px) {
 	.Vipgirls {
 		height: 680px;
 	}
 	.submain-girls {
-	margin: 15px !important;
+		margin: 15px;
 	}
 
 }
@@ -306,21 +308,12 @@ body {
 		height: 900px;
 	}
 }
-@media  (max-width: 1497px) {
-
- .submain-girls {
- 	margin-right: 200px;
- }
-}
 @media  (max-width: 1345px) {
 	.Send {
 		margin-top: 30px;
 	}
 	.Invite {
 		margin-left: 20px;
-	}
-	.submain-girls {
-		margin: 0 100px 0 100px;
 	}
 }
 @media (max-width: 872px) {
@@ -333,6 +326,41 @@ body {
 	.buttons button {
 		zoom: 120%;
 	}
+}
+@media (max-width: 915px) {
+
+	.girlrating {
+		display: flex;
+		width: auto;
+		flex-wrap: wrap;
+	}
+	.girlsrating {
+		margin-top: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+@media (min-width: 950px) and (max-width: 1250px) {
+
+	.submain-girls {
+		width: auto;
+		margin-left: 150px;
+		margin-right: 150px;	}
 
 }
+@media (min-width: 1250px) and (max-width: 9999px) {
+
+	.submain-girls {
+		width: 1000px;
+		margin: 0 auto;	}
+
+}
+@media (min-width: 400px) and (max-width: 999px) {
+
+	.girls{
+		margin-left: 20px;
+	}
+
+}
+
 
