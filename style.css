@@ -1,6 +1,3 @@
-body {
-  font-family: 'IBM Plex Sans', sans-serif; }
-
 .main {
   margin-top: -1px;
   vertical-align: middle; }
@@ -45,27 +42,23 @@ body {
 
 .Show {
   border-style: none;
-  color: black;
+  color: #ccc;
   font-size: 18px;
   font-weight: 300; }
 
-.main .glyphicon:hover {
-  color: #e177ec;
-  transition: all ease-out 0.3s; }
-
 .main button:hover {
   color: #e177ec;
-  transition: all ease-out 0.3s; }
+  transition: all ease-out 0.2s; }
 
 .Messages {
   border-style: none;
-  color: black;
+  color: #ccc;
   font-size: 18px;
   font-weight: 300; }
 
 .Likes {
   border-style: none;
-  color: black;
+  color: #ccc;
   font-size: 18px;
   font-weight: 300; }
 
@@ -75,19 +68,6 @@ body {
   background-color: #C2C2C2;
   color: white;
   padding: 4px 9px; }
-
-.glyphicon.glyphicon-star-empty {
-  font-size: 20px;
-  font-weight: bold; }
-
-.glyphicon.glyphicon-user {
-  color: #ccc; }
-
-.glyphicon.glyphicon-envelope {
-  color: #ccc; }
-
-.glyphicon.glyphicon-heart {
-  color: #ccc; }
 
 .navbar li {
   display: inline;
@@ -109,6 +89,10 @@ body {
   border-radius: 7px;
   border-color: none;
   margin-right: 25px; }
+
+.border-girl {
+  height: 125%;
+  width: 125%; }
 
 .girls img:hover {
   transform: scale(1.1);
