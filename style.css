@@ -44,7 +44,7 @@
   border-style: none;
   color: #ccc;
   font-size: 18px;
-  font-weight: 300; }
+  font-weight: 350; }
 
 .main button:hover {
   color: #e177ec;
@@ -54,13 +54,13 @@
   border-style: none;
   color: #ccc;
   font-size: 18px;
-  font-weight: 300; }
+  font-weight: 350; }
 
 .Likes {
   border-style: none;
   color: #ccc;
   font-size: 18px;
-  font-weight: 300; }
+  font-weight: 350; }
 
 .Credits {
   border-style: none;
@@ -90,9 +90,8 @@
   border-color: none;
   margin-right: 25px; }
 
-.border-girl {
-  height: 125%;
-  width: 125%; }
+.border-girl img {
+  object-fit: cover; }
 
 .girls img:hover {
   transform: scale(1.1);
@@ -196,7 +195,8 @@
   width: 148px;
   height: 300px;
   padding-bottom: 62px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  object-fit: cover; }
 
 .girlsrating-down {
   position: absolute;
