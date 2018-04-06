@@ -1,4 +1,16 @@
+//Google font 
+	@font-face {
+		font-family:'Open Sans';
+	    src:url('https://fonts.googleapis.com/css?family=Lobster|Stylish');
+	}
+//variables
+$pink: #e177ec;
+$main-color: $pink;
 
+
+body {
+	font-family: 'Lobster', sans-serif;
+}
 .main{
 	margin-top: -1px;
 	vertical-align: middle;
@@ -49,7 +61,7 @@
 	font-weight: 350;
 }
 .main button:hover{
-    color: #e177ec;
+    color: $main-color;
     transition: all ease-out 0.2s;
 }
 .Messages {
@@ -106,7 +118,7 @@
 }
 .recommended span {
 	font-size: 25px;
-	color: #e177ec;
+	color: $main-color;
 
 }
 .main-girls {
@@ -138,15 +150,20 @@
 	height: 400px;
 	margin-left: 10px;
 	margin-top: 25px;
-
+}
+.buttons .Invite:hover {
+	color: #ffd025;
 }
 .Send {
-	background-color: #e177ec;
+	background-color: $main-color;
 	border-radius: 5px;
 	margin-left: 20px;
 	border-style: none;
 	zoom: 150%;
 	color: white;
+}
+.Send:hover {
+	color: #ffd025;
 }
 .info {
 	margin-right: -50px;
@@ -184,7 +201,7 @@
 
 }
 .Invite {
-	background-color: #e177ec;
+	background-color: $main-color;
 	border-radius: 5px;
 	border-style: none;
 	zoom: 150%;
@@ -344,6 +361,13 @@
 
 	.girls{
 		margin-left: 20px;
+	}
+
+}
+@media (min-width: 400px) and (max-width: 466px) {
+
+	.VipButton {
+		margin-top: 3px;
 	}
 
 }

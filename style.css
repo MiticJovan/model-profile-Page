@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("https://fonts.googleapis.com/css?family=Lobster|Stylish"); }
+body {
+  font-family: 'Lobster', sans-serif; }
+
 .main {
   margin-top: -1px;
   vertical-align: middle; }
@@ -134,6 +140,9 @@
   margin-left: 10px;
   margin-top: 25px; }
 
+.buttons .Invite:hover {
+  color: #ffd025; }
+
 .Send {
   background-color: #e177ec;
   border-radius: 5px;
@@ -141,6 +150,9 @@
   border-style: none;
   zoom: 150%;
   color: white; }
+
+.Send:hover {
+  color: #ffd025; }
 
 .info {
   margin-right: -50px; }
@@ -311,5 +323,8 @@
 @media (min-width: 400px) and (max-width: 999px) {
   .girls {
     margin-left: 20px; } }
+@media (min-width: 400px) and (max-width: 466px) {
+  .VipButton {
+    margin-top: 3px; } }
 
 /*# sourceMappingURL=style.css.map */
