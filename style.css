@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Open Sans';
-  src: url("https://fonts.googleapis.com/css?family=Lobster|Stylish"); }
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Medium.ttf"); }
 body {
-  font-family: 'Lobster', sans-serif; }
+  font-family: 'Roboto' !important; }
 
 .main {
   margin-top: -1px;
