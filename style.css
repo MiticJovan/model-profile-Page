@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700");
 @font-face {
   font-family: "Roboto";
   src: url("/fonts/Roboto-Medium.ttf"); }
@@ -24,6 +26,10 @@ body {
   height: 35px;
   width: 35px;
   border-radius: 50%; }
+
+.logo {
+  width: 200px;
+  height: 100px; }
 
 .profile-log {
   display: inline-block;
@@ -186,7 +192,9 @@ body {
 
 .buttons {
   margin-top: 150px;
-  margin-left: 100px; }
+  margin-left: 100px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold; }
 
 .Invite {
   background-color: #e177ec;
@@ -241,12 +249,13 @@ body {
   display: inline-block; }
 
 .footer {
-  border-top: 2px solid #DD67EB; }
+  border-top: 2px solid #DD67EB;
+  font-family: 'Open Sans',serif;
+  font-size: 14px; }
 
 .footerpic {
   display: flex;
-  justify-content: center;
-  margin: 5px 5px; }
+  justify-content: center; }
 
 .footer hr {
   width: 1000px;
@@ -322,7 +331,10 @@ body {
     margin: 0 auto; } }
 @media (min-width: 400px) and (max-width: 999px) {
   .girls {
-    margin-left: 20px; } }
+    margin-left: 20px; }
+
+  .footer {
+    padding-left: 20px; } }
 @media (min-width: 400px) and (max-width: 466px) {
   .VipButton {
     margin-top: 3px; } }

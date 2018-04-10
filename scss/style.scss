@@ -3,6 +3,9 @@
 	font-family: "Roboto";
 	src: url("/fonts/Roboto-Medium.ttf");
 }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
 //variables
 $pink: #e177ec;
 $main-color: $pink;
@@ -32,6 +35,10 @@ body {
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
+}
+.logo {
+	width: 200px;
+	height: 100px;
 }
 .profile-log {
 	display: inline-block;
@@ -131,7 +138,7 @@ body {
 
 }
 .submain-girls {
-	border-color: #ccc; 
+	border-color: #ccc;
 	border-width: 1px;
 	border-style: solid;
 	background-color: white;
@@ -198,6 +205,8 @@ body {
 .buttons {
 	margin-top: 150px;
 	margin-left: 100px;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
 
 }
 .Invite {
@@ -254,11 +263,13 @@ body {
 }
 .footer {
 	border-top: 2px solid #DD67EB;
+	font-family: 'Open Sans',serif;
+	font-size:14px;
 }
 .footerpic {
 	display: flex;
 	justify-content: center;
-	margin: 5px 5px;
+
 }
 .footer hr {
 	width: 1000px;
@@ -361,6 +372,9 @@ body {
 
 	.girls{
 		margin-left: 20px;
+	}
+	.footer {
+		padding-left: 20px;
 	}
 
 }
