@@ -5,6 +5,7 @@
 }
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
 
 //variables
 $pink: #e177ec;
@@ -32,17 +33,27 @@ body {
 	vertical-align: middle;
 }
 .profile-link img {
-	height: 35px;
-	width: 35px;
+	height: 40px;
+	width: 40px;
 	border-radius: 50%;
+	border-color: $main-color;
+	border-style:groove;
+	border-width:1px;
 }
 .logo {
 	width: 200px;
 	height: 100px;
 }
+.logo:hover {
+	border-color: $main-color;
+	border-width:2px;
+	border-style: ridge;
+	border-radius: 8px;
+	cursor:pointer;
+}
 .profile-log {
 	display: inline-block;
-	padding: 17px;
+	padding: 15px;
 }
 .profile-log:hover {
 	background-color:#8c8c8c;
@@ -96,6 +107,16 @@ body {
 }
 .navbar {
 	text-align: center;
+}
+.navbar {
+	padding: none !important;
+}
+.navbar button:hover {
+	border-color: $main-color;
+	border-width:1px;
+	border-style: groove;
+	border-radius: 3px;
+	transition: all ease-out 0.2s;
 }
 .Vipgirls {
 	background:linear-gradient(#fff,#f1f1f1);
@@ -223,6 +244,7 @@ body {
 	height: 330px;
 	background-color: #fff;
 	position: relative;
+	font-family: 'Tajawal', sans-serif;
 }
 .girlsrating img{
 	width: 148px;
